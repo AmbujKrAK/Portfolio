@@ -1,6 +1,6 @@
-import React from "react";
-import "./Projects.css";
-import { FaReact, FaHardHat, FaBootstrap, } from "react-icons/fa";
+import React from 'react'
+import './Projects.css'
+import { FaReact, FaHardHat, FaBootstrap } from 'react-icons/fa'
 import {
   SiBlockchaindotcom,
   SiHtml5,
@@ -16,10 +16,10 @@ import {
   SiNodedotjs,
   SiCss3,
   SiBootstrap,
-} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
+} from 'react-icons/si'
+import { DiCss3 } from 'react-icons/di'
+import { VscJson } from 'react-icons/vsc'
+import { IoLogoJavascript } from 'react-icons/io'
 export const Projects = () => {
   return (
     <>
@@ -41,12 +41,15 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Bewakoof.com Replica</h2>
               <p>
-              This is a clone of "Bewakoof.com". "Bewakoof.com" is a E-Commerce website for Clothes and Accessories. Built on CSS and Bootstrap for front end and LocalStorage on backend. It's a team project completed executed in 5 days.
+                This is a clone of "Bewakoof.com". "Bewakoof.com" is a
+                E-Commerce website for Clothes and Accessories. Built on CSS and
+                Bootstrap for front end and LocalStorage on backend. It's a team
+                project completed executed in 5 days.
               </p>
               <div>
                 <SiCss3 />
                 <SiHtml5 />
-                <SiJavascript/>
+                <SiJavascript />
                 <SiBootstrap />
                 {/* <SiExpress /> */}
                 {/* <SiMongodb /> */}
@@ -88,12 +91,14 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Porter.in</h2>
               <p>
-                First Backend Project with NodeJS, ExpressJS and MongoDB. 
+                This is a clone of "Porter.in". It is a website where
+                customer can order packers and movers services. It's my First Backend
+                Project using NodeJS, ExpressJS and MongoDB.
               </p>
               <div>
                 <SiCss3 />
                 <SiHtml5 />
-                <SiJavascript/>
+                <SiJavascript />
                 <SiBootstrap />
                 <SiNodedotjs />
                 <SiExpress />
@@ -122,9 +127,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
-        
-      </div> 
+      </div>
     </>
-  );
-};
+  )
+}
