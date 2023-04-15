@@ -1,5 +1,5 @@
 import React from 'react'
-import './Timeline.css'
+import './Experience.css'
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -7,8 +7,6 @@ import {
 import 'react-vertical-timeline-component/style.min.css'
 
 import WorkIcon from '@material-ui/icons/Work'
-import SchoolIcon from '@material-ui/icons/School'
-import StarRateIcon from '@material-ui/icons/StarRate'
 import { ThemeContext } from '../../Context/theme'
 
 export const Experience = () => {
