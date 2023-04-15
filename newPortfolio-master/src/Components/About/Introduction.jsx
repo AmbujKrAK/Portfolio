@@ -27,6 +27,7 @@ export const Introduction = () => {
                 <span className="different">Ambuj Kumar </span> from{" "}
                 <span className="different"> Ranchi, Jharkhand</span>. I have
                 completed my graduation in Bachelor of Commerce from Marwari College, Ranchi, Jharkhand.
+                And my <span className="different">Web Developer </span> {" "} journey <span className="different">Masai School</span> {" "}, Bengaluru.
               </h4>
               <h4>
                 Some of my interests apart form Coding :

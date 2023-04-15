@@ -33,13 +33,13 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://timesnext.com/wp-content/uploads/2020/05/bewakoof-website-screenshot.png"
+                  src="https://github.com/AmbujKrAK/Bewakoof.com--Project-/raw/screenshots/Screenshot%202022-04-28%20at%205.29.31%20PM.png?raw=true"
                   alt="Bewakoof.com"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Bewakoof.com Replica</h2>
+              <h2>Bewakoof.com (Clone)</h2>
               <p>
                 This is a clone of "Bewakoof.com". "Bewakoof.com" is a
                 E-Commerce website for Clothes and Accessories. Built on CSS and
@@ -83,13 +83,13 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://entrackr.com/wp-content/uploads/2020/11/porter-.jpg"
+                  src="https://user-images.githubusercontent.com/97461845/165541023-910a0eee-08aa-40bd-abcc-f16bdedb7597.png"
                   alt="Porter.in"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Porter.in</h2>
+              <h2>Porter.in (Clone)</h2>
               <p>
                 This is a clone of "Porter.in". It is a website where
                 customer can order packers and movers services. It's my First Backend

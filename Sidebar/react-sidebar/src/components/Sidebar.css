@@ -1,0 +1,31 @@
+
+.main{
+    border: 2px solid white;
+    background-color: rgb(23, 30, 60);
+    text-align: center;
+    width: 20%;
+    border-radius: 25px;
+    color: white;
+}
+
+.ProfilePic img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-left: 1em;
+    margin-top: 1em;
+    border: 3px solid orangered;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 2%;
+    margin-left:0px;
+    text-align: center;
+}
+
+.navbar ul {
+    margin-left: -35px;
+}

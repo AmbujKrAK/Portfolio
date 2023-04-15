@@ -11,7 +11,7 @@ import SchoolIcon from '@material-ui/icons/School'
 import StarRateIcon from '@material-ui/icons/StarRate'
 import { ThemeContext } from '../../Context/theme'
 
-export const Timeline = () => {
+export const Experience = () => {
   const [{ themename }] = React.useContext(ThemeContext)
   const [linecolor, setlinecolor] = React.useState(
     themename === 'light' ? '#23283e' : '#fcfcfc',
@@ -28,11 +28,11 @@ export const Timeline = () => {
     <>
       <div className="section mainsection">
         <h2 className="section__title" data-aos="fade-right">
-          My <span className="different">Education Timeline 💫</span>
+          My <span className="different">Professional Experience 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={'NOV 2021 - PRESENT'}
+            date={'SEP 2022 - DEC 2022'}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -45,28 +45,30 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              MERN Stack Developer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote), Bengaluru
+              Webvillee Technology Pvt. Ltd (Indore), Madhya Pradesh
             </h4>
             <p data-aos="fade-right">
-            As a student at Masai, I found the institute's focus on outcome-driven education to be refreshing and effective. The mission to skill India's untapped and underutilized talent appealed to me, and I appreciated the effort to prepare us for some of the most in-demand jobs in the world.
+              Developed and maintained multiple web applications using a variety
+              of technologies such as React and NoSQL. <p>Designed and implemented
+              RESTful APIs to enable efficient communication between the
+              front-end and back-end systems.</p> 
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={'NOV 2015 - JUN 2018'}
+            date={'JUL 2018 - JUN 2021'}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -78,49 +80,26 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Bachelor of Commerce, Accountancy Honors
+              Accounts Payable
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            ></h4>
-            <p data-aos="fade-right">Marwari College, Ranchi, Jharkhand</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={'MAY 2015'}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              backgroundColor: `var(--clr-bg)`,
-              // textAlign: 'center',
-              textAlign: 'left',
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{ borderRight: '16px solid  rgb(33, 150, 243)' }}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Completed Higher Secondary - Commerce
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            ></h4>
+              TCS (Gitanjali Park), Kolkata
+            </h4>
             <p data-aos="fade-right">
-              Kendriya Vidyalaya Namkum, Ranchi, Jharkhand
+              Managed the Accounts Payable process, including verifying and
+              processing invoices, reconciling vendor statements, and ensuring
+              timely payment of bills. <p>Maintained accurate records of all
+              Accounts Payable transactions and ensured compliance with
+              accounting standards and company policies.</p> 
             </p>
           </VerticalTimelineElement>
 

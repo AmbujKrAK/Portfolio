@@ -9,6 +9,7 @@ import FacebookIcon from '@material-ui/icons/Facebook'
 import DescriptionIcon from '@material-ui/icons/Description'
 import PublicIcon from '@material-ui/icons/Public'
 import { Introduction } from './Introduction'
+import { Experience } from './Experience'
 import { Timeline } from './Timeline'
 import { Techstacks } from './Techstacks'
 export const About = () => {
@@ -93,6 +94,7 @@ export const About = () => {
         </div>
       </div>
       <Introduction />
+      <Experience />
       <Timeline />
       <section id="#skills">
         <Techstacks />
