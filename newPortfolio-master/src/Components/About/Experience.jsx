@@ -65,6 +65,44 @@ export const Experience = () => {
             </p>
           </VerticalTimelineElement>
 
+            {/* Masai Experence */}
+
+            <VerticalTimelineElement
+            date={'DEC 2021 - AUG 2022'}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              // textAlign: 'center',
+              textAlign: 'left',
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{ borderRight: '16px solid  rgb(33, 150, 243)' }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              MERN Stack Developer(Intern)
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Masai School (Bengaluru), Karnataka
+            </h4>
+            <p data-aos="fade-right">
+            I have designed and developed small scale web applications using React and NoSQL databases. In addition, I have learned designing and implementing efficient RESTful APIs to facilitate seamless communication between the front-end and back-end systems.<p>My experience in these areas has equipped me with the knowledge and expertise needed to deliver high-quality web applications that meet the needs of users and businesses alike
+              </p> 
+            </p>
+          </VerticalTimelineElement>
+
+            {/* Masai Exp ends */}
+
           <VerticalTimelineElement
             date={'JUL 2018 - JUN 2021'}
             contentStyle={{
