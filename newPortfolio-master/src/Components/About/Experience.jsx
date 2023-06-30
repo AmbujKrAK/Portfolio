@@ -66,7 +66,7 @@ export const Experience = () => {
           </VerticalTimelineElement>
 
             {/* Masai Experence */}
-
+{/* 
             <VerticalTimelineElement
             date={'DEC 2021 - AUG 2022'}
             contentStyle={{
@@ -99,7 +99,7 @@ export const Experience = () => {
             I have designed and developed small scale web applications using React and NoSQL databases. In addition, I have learned designing and implementing efficient RESTful APIs to facilitate seamless communication between the front-end and back-end systems.<p>My experience in these areas has equipped me with the knowledge and expertise needed to deliver high-quality web applications that meet the needs of users and businesses alike
               </p> 
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
 
             {/* Masai Exp ends */}
 
